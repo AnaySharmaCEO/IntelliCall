@@ -1,27 +1,45 @@
-# Resonology AI
+# IntelliCall / Resonology AI
 
-Public application repository for the Resonology AI platform.
+**Autonomous Enterprise Voice AI & Conversational Intelligence Platform**
 
-## Scope
+Welcome to the public-facing repository for IntelliCall (formerly Resonology AI). This repository hosts open-source artifacts, public release snapshots, benchmarks, and community documentation.
 
-This repository is intended for non-proprietary product assets, including:
+---
 
-- Frontend application code
-- Backend services
-- Database schema and migrations
-- Deployment configuration
-- Documentation
-- Test suites
+## Repository Structure
 
-## Structure
+```
+.
+├── V2_IntelliCall/               ← Complete IntelliCall V2 Prototype & Architecture Snapshot
+│   ├── frontend/                 ← React 19 + Vite + Tailwind CSS User Interface
+│   ├── supabase/                 ← PostgreSQL Schema, Migrations & Core Backend Architecture
+│   ├── docs/                     ← Technical Specifications, Architecture Guides & Protocols
+│   ├── scripts/                  ← Deployment & Cloud Setup Utilities
+│   └── work_log.md               ← Development Milestones & Comprehensive Changelog
+├── LICENSE                       ← Open-Source Licensing
+└── README.md                     ← Repository Overview & Showcase Documentation
+```
 
-- `frontend/` contains the client application
-- `backend/` contains API and server modules
-- `database/` contains schema, migrations, and seed data
-- `deployment/` contains infrastructure and environment-specific setup
-- `docs/` contains public technical documentation
-- `tests/` contains automated test suites
+---
 
-## Separation Policy
+## IntelliCall V2 Overview
 
-Proprietary Logic is strictly private.
+The `V2_IntelliCall/` directory preserves the full V2 baseline architecture:
+- **Real-Time Voice Streaming:** Sub-second speech-to-speech AI agent interaction via Google Gemini Live API.
+- **Multimodal Calling Interface:** Integrated web phone simulator, live call monitoring, barge-in controls, and supervisor takeovers.
+- **Enterprise CRM & Pipelines:** Campaign playbooks, dynamic qualification questions, live objection handling, and automated appointment scheduling.
+- **Post-Call Intelligence:** Asynchronous conversational extraction (sentiment analysis, intent classification, action items, and compliance auditing).
+
+---
+
+## Releases & Roadmap
+
+* **V2 Snapshot:** Located under [`V2_IntelliCall/`](./V2_IntelliCall/).
+* **V3 Hardened Platform:** Core proprietary models, high-performance AudioWorklet DSP engines (`packages/engine`), and regulatory compliance packs are developed privately and exported here as public release snapshots.
+
+---
+
+## Author & Attribution
+
+* **Author:** Anay Sharma <gamingxjanata@gmail.com>
+* **Lead Organization:** Resonology AI / IntelliCall
